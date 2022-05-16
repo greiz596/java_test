@@ -201,7 +201,7 @@ fi
 
 set -- \
         -classpath "$CLASSPATH" \
-        MyFirstProgram \
+        ru.stqa.ptf.sandbox.MyFirstProgram \
         "$@"
 
 # Use "xargs" to parse quoted args.
