@@ -35,4 +35,12 @@ public class GroupHelper extends HelperBase {
   public void selectGroup(By name) {
     deleteSelectedGroups(name);
   }
+
+  public void initGroupModification() {
+    Click(By.name("edit"));
+  }
+
+  public void submitGroupModification() {
+    Click(By.name("update"));
+  }
 }
